@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Sawarabi+Gothic&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: absolute;
+    background-color: rgba(255, 235, 205, 0.171);
+    left: 0%;
+    padding: 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: greenyellow;
+    font-family: "Sawarabi Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 2.1em;
+    text-decoration: none;
+}
+
+.logo span {
+    color: orangered;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    color: antiquewhite;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.btn-devis {
+    padding: 10px 20px;
+    background: orangered;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+
+.btn-devis:hover {
+    padding: 10px 20px;
+    transition: ease-in-out;
+}
+
+header .navbar li a:hover {
+    color: antiquewhite;
+    padding-top: 20px;
+    border-top: solid 2px;
+}
+
+
+/*****************banner***************/
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/fondHeader.jpg);
+}
+
+.contenu-banner {
+    max-width: 50%;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.contenu-banner span {
+    background-color: greenyellow;
+    color: orangered;
+    margin: 1px;
+    padding: 0 6px 0 0;
+    border-radius: 12px 0 12px 0;
+}
+
+.contenu-banner h1 {
+    color: antiquewhite;
+    font-size: 3em;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.contenu p {
+    color: antiquewhite;
+    font-size: 1.2em;
+}
+
+.btn-1 {
+    font-size: 1rem;
+    color: antiquewhite;
+    background-color: orangered;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+.btn-2 {
+    font-size: 1rem;
+    color: orangered;
+    background-color: greenyellow;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+.btn-1:hover {
+    letter-spacing: 4px;
+}
+
+
+/* ****************footer*************** */
+
+footer {
+    background-color: rgba(206, 117, 35, 0.685);
+    align-items: center;
+    transition: 0.5s;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.block {
+    width: auto;
+    margin: 2%;
+    justify-content: space-between;
+}
+
+.author {
+    text-align: center;
+}
