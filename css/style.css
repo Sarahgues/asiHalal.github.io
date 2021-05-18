@@ -1,154 +1,228 @@
-@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Sawarabi+Gothic&display=swap");
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    scroll-behavior: smooth;
-}
-
-header {
-    position: absolute;
-    background-color: rgba(255, 235, 205, 0.171);
-    left: 0%;
-    padding: 10px;
-    width: 100%;
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    color: greenyellow;
-    font-family: "Sawarabi Gothic", sans-serif;
-    font-weight: bold;
-    font-size: 2.1em;
-    text-decoration: none;
-}
-
-.logo span {
-    color: orangered;
-}
-
-.navbar {
-    display: flex;
-    position: relative;
-}
-
-.navbar li {
-    list-style: none;
-}
-
-.navbar a {
-    color: antiquewhite;
-    text-decoration: none;
-    margin-left: 30px;
-    font-weight: 700;
-}
-
-.btn-devis {
-    padding: 10px 20px;
-    background: orangered;
-    margin-top: -10px;
-    text-transform: uppercase;
-}
-
-.btn-devis:hover {
-    padding: 10px 20px;
-    transition: ease-in-out;
-}
-
-header .navbar li a:hover {
-    color: antiquewhite;
-    padding-top: 20px;
-    border-top: solid 2px;
-}
-
-
-/*****************banner***************/
-
-.banner {
-    position: relative;
-    background: url(/images/fondHeader.jpg);
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contenu-banner {
-    max-width: 50%;
-    text-align: center;
-    color: antiquewhite;
-}
-
-.contenu-banner span {
-    background-color: greenyellow;
-    color: orangered;
-    margin: 1px;
-    padding: 0 6px 0 0;
-    border-radius: 12px 0 12px 0;
-}
-
-.contenu-banner h1 {
-    color: antiquewhite;
-    font-size: 3em;
-    margin-bottom: 15px;
-    text-transform: capitalize;
-}
-
-.contenu p {
-    color: antiquewhite;
-    font-size: 1.2em;
-}
-
-.btn-1 {
-    font-size: 1rem;
-    color: antiquewhite;
-    background-color: orangered;
-    padding: 10px 20px;
-    display: inline-block;
-    margin-top: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-    transition: 0.5s;
-    margin-left: 10px;
-}
-
-.btn-2 {
-    font-size: 1rem;
-    color: orangered;
-    background-color: greenyellow;
-    padding: 10px 20px;
-    display: inline-block;
-    margin-top: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-    transition: 0.5s;
-    margin-left: 10px;
-}
-
-.btn-1:hover {
-    letter-spacing: 4px;
-}
-
-.footer {
-    display: flex;
-    background-color: rgba(206, 117, 35, 0.685);
-    align-items: center;
-}
-
-.block {
-    width: auto;
-    margin: 2%;
-    justify-content: space-between;
-}
-
-.author {
-    text-align: center;
-}
+    @import url("https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap");
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Sawarabi+Gothic&display=swap");
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        background-color: #ebfce8;
+    }
+    
+    p {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    
+    header {
+        position: fixed;
+        background-color: rgba(14, 8, 1, 0.781);
+        left: 0%;
+        top: 0%;
+        padding: 20px 10px;
+        width: 100%;
+        z-index: 1;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: 0.5s;
+    }
+    
+    .logo {
+        color: greenyellow;
+        font-family: 'Lato', sans-serif;
+        /* font-family: "Sawarabi Gothic", sans-serif; */
+        font-weight: bold;
+        font-size: 2.1em;
+        text-decoration: none;
+    }
+    
+    .logo span {
+        color: orangered;
+    }
+    
+    .navbar {
+        display: flex;
+        position: relative;
+    }
+    
+    .navbar li {
+        list-style: none;
+    }
+    
+    .navbar a {
+        color: whitesmoke;
+        text-decoration: none;
+        margin-left: 30px;
+        font-weight: 700;
+    }
+    
+    .btn-devis {
+        padding: 10px 20px;
+        background: orangered;
+        margin-top: -10px;
+        text-transform: uppercase;
+    }
+    
+    .btn-devis:hover {
+        padding: 10px 20px;
+        transition: ease-in-out;
+    }
+    
+    header .navbar li a:hover {
+        color: antiquewhite;
+        padding-top: 20px;
+        border-top: solid 2px;
+    }
+    /*****************banner***************/
+    
+    .banner {
+        position: relative;
+        background: url(/images/fondHeader8.jpg);
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contenu-banner {
+        max-width: 50%;
+        text-align: center;
+        color: whitesmoke;
+    }
+    
+    .contenu-banner span {
+        background-color: greenyellow;
+        color: orangered;
+        margin: 1px;
+        padding: 0 6px 0 0;
+        border-radius: 12px 0 12px 0;
+    }
+    
+    .contenu-banner h1 {
+        color: whitesmoke;
+        font-size: 3em;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+    }
+    
+    .contenu p {
+        color: whitesmoke;
+        font-size: 1.2em;
+    }
+    
+    .btn-1 {
+        font-size: 1rem;
+        color: whitesmoke;
+        background-color: orangered;
+        padding: 10px 20px;
+        display: inline-block;
+        margin-top: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        transition: 0.5s;
+        margin-left: 10px;
+    }
+    
+    .btn-2 {
+        font-size: 1rem;
+        color: black;
+        background-color: greenyellow;
+        padding: 10px 20px;
+        display: inline-block;
+        margin-top: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        transition: 0.5s;
+        margin-left: 10px;
+    }
+    
+    .btn-1:hover {
+        letter-spacing: 4px;
+    }
+    /* FOOTER */
+    
+    .nav-footer {
+        text-align: center;
+    }
+    
+    .nav-footer ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 50px;
+        padding: 0;
+    }
+    
+    .nav-footer li {
+        list-style: none;
+        width: 25%;
+    }
+    
+    .nav-footer a {
+        color: rgb(22, 13, 1);
+        text-decoration: none;
+        margin-left: 30px;
+        font-weight: 700;
+    }
+    
+    .nav-footer i {
+        display: block;
+        font-size: 2rem;
+    }
+    
+    .fal {
+        font-weight: 500;
+    }
+    
+    .author {
+        text-align: center;
+    }
+    /* production */
+    
+    section {
+        padding: 100px;
+    }
+    
+    .row {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .row .col50 {
+        position: relative;
+        width: 48%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .title {
+        color: #000;
+        font-size: 2rem;
+        font-weight: 300px;
+        text-transform: capitalize;
+    }
+    
+    .row .col50 h2 {
+        margin-bottom: 20px;
+    }
+    
+    .titlespan {
+        color: rgb(28, 9, 65);
+        font-size: 1.5rem;
+        font-weight: 700px;
+    }
+    
+    .row .col50 img {
+        height: 450px;
+        width: 600px;
+        position: relative;
+    }
