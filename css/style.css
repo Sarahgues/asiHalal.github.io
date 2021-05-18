@@ -71,12 +71,12 @@ header .navbar li a:hover {
 
 .banner {
     position: relative;
-    width: 100%;
+    background: url(/images/fondHeader.jpg);
+    background-size: cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/images/fondHeader.jpg);
 }
 
 .contenu-banner {
@@ -137,19 +137,10 @@ header .navbar li a:hover {
     letter-spacing: 4px;
 }
 
-
-/* ****************footer*************** */
-
-footer {
-    background-color: rgba(206, 117, 35, 0.685);
-    align-items: center;
-    transition: 0.5s;
-}
-
 .footer {
     display: flex;
+    background-color: rgba(206, 117, 35, 0.685);
     align-items: center;
-    transition: 0.5s;
 }
 
 .block {
