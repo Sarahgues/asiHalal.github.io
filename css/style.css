@@ -84,7 +84,7 @@ header .navbar li a:hover {
 
 .banner {
     position: relative;
-    background: url(/images/boulettes-fraiches-surface-pierre-sombre.jpg)no-repeat center/cover;
+    background: url(images/boulettes-fraiches-surface-pierre-sombre.jpg) no-repeat center/cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -96,11 +96,11 @@ header .navbar li a:hover {
     text-align: center;
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.356);
-    box-shadow: max-width: 50%;
+    max-width: 50%;
     text-align: center;
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.356);
-    box-shadow: 1px 1px 20px 19px rgb(0 0 0 / 39%);
+    box-shadow: 1px 1px 20px 19px rgb(0 0 0 /39%);
 }
 
 .contenu-banner span {
