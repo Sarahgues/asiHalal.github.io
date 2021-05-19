@@ -2,258 +2,294 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Sawarabi+Gothic&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #ebfce8;
+  background-color: #ebfce8;
 }
 
 p {
-    font-size: 1rem;
-    font-weight: 300;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 header {
-    position: fixed;
-    background-color: rgba(14, 8, 1, 0.781);
-    left: 0%;
-    top: 0%;
-    padding: 20px 10px;
-    width: 100%;
-    z-index: 1;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    transition: 0.5s;
+  position: fixed;
+  background-color: rgba(14, 8, 1, 0.849);
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.109);
+  transition: 0.5s;
 }
 
 .logo {
-    color: greenyellow;
-    font-family: "Lato", sans-serif;
-    /* font-family: "Sawarabi Gothic", sans-serif; */
-    font-weight: bold;
-    font-size: 2.1em;
-    text-decoration: none;
+  color: greenyellow;
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 2.1em;
+  text-decoration: none;
 }
 
 .logo span {
-    color: orangered;
+  color: orangered;
 }
 
 .navbar {
-    display: flex;
-    position: relative;
+  display: flex;
+  position: relative;
 }
 
 .navbar li {
-    list-style: none;
+  list-style: none;
 }
 
 .navbar a {
-    color: whitesmoke;
-    text-decoration: none;
-    margin-left: 30px;
-    font-weight: 700;
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: 700;
 }
 
 .btn-devis {
-    padding: 10px 20px;
-    background: orangered;
-    margin-top: -10px;
-    text-transform: uppercase;
+  padding: 10px 20px;
+  background: orangered;
+  margin-top: -10px;
+  text-transform: uppercase;
 }
 
 .btn-devis:hover {
-    padding: 10px 20px;
-    transition: ease-in-out;
+  padding: 10px 20px;
+  transition: ease-in-out;
 }
 
 header .navbar li a:hover {
-    color: greenyellow;
-    padding-top: 20px;
-    border-top: solid 2px;
+  color: greenyellow;
+  padding-top: 20px;
+  border-top: solid 2px;
 }
-
 
 /*****************banner***************/
 
 .banner {
-    position: relative;
-    background: url(images/boulettes-fraiches-surface-pierre-sombre.jpg) no-repeat center/cover;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  background: url(/images/boulettes-fraiches-surface-pierre-sombre.jpg)
+    no-repeat center/cover;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contenu-banner {
-    max-width: 50%;
-    text-align: center;
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.356);
-    max-width: 50%;
-    text-align: center;
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.356);
-    box-shadow: 1px 1px 20px 19px rgb(0 0 0 /39%);
+  max-width: 60%;
+  padding-bottom: 10px;
+  text-align: center;
+  color: whitesmoke;
+  max-width: 50%;
+  text-align: center;
+  border-radius: 15px;
+  background: rgb(0 0 0 /39%);
+  box-shadow: 19px 19px 20px 19px rgb(0 0 0 /39%);
 }
 
 .contenu-banner span {
-    background-color: greenyellow;
-    color: orangered;
-    margin: 1px;
-    padding: 0 6px 0 0;
-    border-radius: 12px 0 12px 0;
+  background-color: greenyellow;
+  color: orangered;
+  margin: 1px;
+  padding: 0 6px 0 0;
+  border-radius: 12px 0 12px 0;
 }
 
 .contenu-banner h1 {
-    color: whitesmoke;
-    font-size: 3em;
-    margin-bottom: 15px;
-    text-transform: capitalize;
+  color: whitesmoke;
+  font-size: 3em;
+  margin-bottom: 15px;
+  text-transform: capitalize;
 }
 
 .contenu p {
-    color: whitesmoke;
-    font-size: 1.2em;
+  color: whitesmoke;
+  font-size: 1.2em;
 }
 
 .btn-1 {
-    font-size: 1rem;
-    color: whitesmoke;
-    background-color: orangered;
-    padding: 10px 20px;
-    display: inline-block;
-    margin-top: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-    transition: 0.5s;
-    margin-left: 10px;
+  font-size: 1rem;
+  color: whitesmoke;
+  background-color: orangered;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  margin-left: 10px;
 }
 
 .btn-2 {
-    font-size: 1rem;
-    color: black;
-    background-color: greenyellow;
-    padding: 10px 20px;
-    display: inline-block;
-    margin-top: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-    transition: 0.5s;
-    margin-left: 10px;
+  font-size: 1rem;
+  color: black;
+  background-color: greenyellow;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  margin-left: 10px;
 }
 
 .btn-1:hover {
-    letter-spacing: 4px;
+  letter-spacing: 4px;
 }
 
 .feuille-menthe {
-    background-image: url(/images/illustration-vectorielle-feuillage-omenthe.jpg);
-    width: 100%;
-    position: absolute;
+  background-image: url(images/illustration-vectorielle-feuillage-omenthe.jpg);
+  width: 100%;
+  position: absolute;
 }
-
 
 /* FOOTER */
 
 .nav-footer {
-    text-align: center;
-    background-color: rgba(14, 8, 1, 0.931);
+  text-align: center;
+  background-color: rgba(14, 8, 1, 0.931);
 }
 
-.nav-footer p,
-span {
-    color: whitesmoke;
+.nav-footer p {
+  color: whitesmoke;
 }
 
 .nav-footer ul {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 50px;
-    padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+  padding: 0;
 }
 
 .nav-footer li {
-    list-style: none;
-    width: 25%;
+  list-style: none;
+  width: 25%;
 }
 
 .nav-footer a {
-    color: rgb(22, 13, 1);
-    text-decoration: none;
-    margin-left: 30px;
-    font-weight: 700;
+  color: rgb(22, 13, 1);
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: 700;
 }
 
 .nav-footer i {
-    padding: 10px;
-    color: whitesmoke;
-    display: block;
-    font-size: 2rem;
+  padding: 10px;
+  color: whitesmoke;
+  display: block;
+  font-size: 2rem;
 }
 
 .fal {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .author {
-    text-align: center;
+  text-align: center;
 }
-
 
 /* production */
 
 section {
-    padding: 100px;
+  padding: 100px;
 }
 
 .row {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .row .col50 {
-    position: relative;
-    width: 48%;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  width: 48%;
+  justify-content: center;
+  align-items: center;
 }
 
 .production p {
-    padding: 2%;
-    text-align: justify;
+  padding: 2%;
+  text-align: justify;
 }
 
 .title {
-    color: #000;
-    font-size: 2.3rem;
-    font-weight: 300px;
-    text-transform: capitalize;
+  color: #000;
+  font-size: 2.3rem;
+  font-weight: 300px;
+  text-transform: capitalize;
 }
 
 .row .col50 h2 {
-    margin-bottom: 0px;
+  margin-bottom: 30px;
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-weight: bold;
 }
 
 .title span {
-    color: orangered;
-    font-size: 2.6rem;
-    font-weight: 700px;
+  color: orangered;
+  font-size: 2.6rem;
+  font-weight: 700px;
 }
 
 .row .col50 img {
-    height: 450px;
-    width: 600px;
-    position: relative;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.288);
+  height: 450px;
+  width: 600px;
+  position: relative;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.288);
+}
+
+/* page produits */
+
+.gamme .title h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gamme {
+  margin-top: -100px;
+}
+
+.gamme.text {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.gamme .text .box {
+  width: 350px;
+  height: 20px;
+  border: 20px solid #fff;
+  box-shadow: 20px 15px 35px rgba(0, 0, 0, alpha);
+}
+
+.gamme .text .box .imbox img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 20px;
+  border: 20px solid #fff;
+  box-shadow: 20px 15px 35px rgba(0, 0, 0, alpha);
 }
